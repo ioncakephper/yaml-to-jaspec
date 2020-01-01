@@ -39,8 +39,6 @@ function execute(inputFilename) {
 function generateFromTemplate(basename, data) {
     let templateFilename = setMissingExtension(basename, config.templateExtension);
     templateFilename = [config.templates, templateFilename].join("\\");
-    console.log("Template filename:");
-    console.log(templateFilename);
 
     let template = Handlebars.compile(fs.readFileSync(templateFilename, "utf8"));
     return template(data);
@@ -64,7 +62,6 @@ function writeDocument(suite, body) {
 
     let specFilename = getSuiteFilename(suite);
     specFilename = [options.output, specFilename].join("\\");
-    console.log(specFilename);
     fs.writeFileSync(specFilename, body, "utf8");
 }
 

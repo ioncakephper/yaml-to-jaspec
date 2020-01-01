@@ -6,6 +6,6 @@ Quickly create basic spec files to use with jasmine-node
 Install the package globally:
 
 ```bash
-npm install yaml-tojaspec -g
+npm install yaml-to-jaspec -g
 ```
 

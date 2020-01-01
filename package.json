@@ -1,0 +1,19 @@
+{
+  "name": "yaml-to-jaspec",
+  "version": "1.0.0",
+  "description": "Create spec files to use with jasmine-node",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioncakephper/yaml-to-jaspec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioncakephper/yaml-to-jaspec/issues"
+  },
+  "homepage": "https://github.com/ioncakephper/yaml-to-jaspec#readme"
+}

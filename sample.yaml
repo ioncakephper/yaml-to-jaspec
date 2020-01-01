@@ -1,0 +1,7 @@
+suites:
+  - suite: yaml to specification
+    tests:
+      - getSuiteBasename uses title
+      - getSuiteBasename uses slug
+      - getSuiteFilename uses suffix and has specsEXtension
+
